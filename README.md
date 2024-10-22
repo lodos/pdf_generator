@@ -1,5 +1,21 @@
 # RUST html-to-pdf generator
 
+Faster then anything RUST pdf-converter.
+
+## Run project
+
+```shell
+cargo run
+```
+
+or
+
+```shell
+cargo build
+```
+
+Then put this CURL-command into command line.
+
 ```shell
 curl -X POST http://localhost:3030/create_pdf \
 -H "Content-Type: application/json" \
@@ -25,4 +41,10 @@ curl -X POST http://localhost:3030/create_pdf \
       "recommends": "Пейте пиво пенное!"
     }
 }'
+```
+
+Successfully generated PDF-file is here:
+
+```plaintext
+src/public/html/pdf/index.pdf
 ```
