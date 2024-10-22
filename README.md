@@ -14,6 +14,7 @@ or
 cargo build
 ```
 
+## Generate PDF from HTML template
 Then put this CURL-command into command line.
 
 ```shell
